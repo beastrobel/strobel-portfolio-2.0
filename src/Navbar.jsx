@@ -8,7 +8,6 @@ function Navbar() {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <CustomLink to="/">Home</CustomLink>
                     <CustomLink to="/portfolio">Portfolio</CustomLink>
                 </ul>
             </div>

@@ -1,4 +1,4 @@
-function Portfolio() {
+function TechBlog() {
     return(
         <section>
             <div class = "row">
@@ -11,4 +11,4 @@ function Portfolio() {
     )
 };
 
-export default Portfolio;             
+export default TechBlog;   
