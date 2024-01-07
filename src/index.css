@@ -55,20 +55,7 @@
     display: inline;
   }
 
-  .footericon{
-    text-decoration: none;
-  }
-
-  #aboutimg{
-    border-radius:300px;
-    height: 200px;
+  #made-with{
+    font-size: 14px;
     display: inline;
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-  }
-
-  #message{
-    height: 200px;
-    vertical-align: top;
   }

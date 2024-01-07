@@ -14,3 +14,16 @@
     text-decoration: none;
     border: solid 5px black;
 }
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
