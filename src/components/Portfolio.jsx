@@ -1,6 +1,12 @@
 function Portfolio() {
     return(
         <section>
+             <div class = "row">
+                <img src="/Umbrella.png" class="mx-auto d-block col-12 col-md-12 col-lg-12 p-5"/>
+                <h3 class="col-sm-12 col-lg-12">Umbrella Weather App</h3><br/><br/>
+                <p class="col-sm-12 col-lg-12">Deployed web application (Coming Soon)</p>
+                <p class="col-sm-12 col-lg-12"><a href="https://github.com/beastrobel/umbrella-2.0" target="blank">GitHub repository</a></p> 
+            </div> 
             <div class = "row">
                 <img src="/TechBlog.png" class="mx-auto d-block col-12 col-md-12 col-lg-12 p-5"/>
                 <h3 class="col-sm-12 col-lg-12">Tech Blog</h3><br/><br/>
