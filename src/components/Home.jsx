@@ -8,7 +8,7 @@ function Home() {
                 <div class="col-sm-12 col-md-12 col-lg-12 m-3 p-5">
                     <h2>Hi, I'm Beatriz Strobel.</h2>
                     <h1>I develop user-friendly interfaces.</h1>
-                    <p>Web developer based in Grand Rapids, MI.</p>
+                    <p>UI/UX Designer based in Grand Rapids, MI.</p>
                     <div class="icons">
                         <a href="https://linkedin.com/in/beatriz-strobel-50a58a27b" target="blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#899499" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -20,14 +20,16 @@ function Home() {
                             </svg>
                         </a>
                     </div>
-                    <img src="/Mockup.jpg" class="img-fluid" /><br/><br/><br/>          
-                    <p>With just under 10 years of experience in graphic design and UI/UX, I am a styling expert. 
-                    My web dev toolkit includes React.js, Apollo GraphQL, Express.js, MongoDB, MySQL, Node.js,
-                    HTML, CSS, Bootstrap, JavaScript and jQuery. Let's work together!</p><br/>
+                    <img src="/Hero.jpg" class="img-fluid" /><br/><br/><br/>          
+                    <p>With just under 10 years of experience in Graphic Design and UI/UX, I am a styling expert. My toolkit includes Figma and Adobe Creative Cloud. 
+                        I am well versed in WCAG standards and accessibility testing. I have a Web Development Certificate from Michigan State University. 
+                        My technical skills include React.js, Redux.js, Apollo GraphQL, HTML, CSS, Bootstrap, Chakra UI, and JavaScript. Let's work together!</p><br/>
                     <div class="action-buttons">
                     <Link to="/portfolio"><button class="btn">View Portfolio</button></Link>
                     <a href="/ResumeBeatrizStrobel.pdf" download="ResumeBeatrizStrobel.pdf" target="blank"><button class="btn">Download Resume</button></a>
-                    </div>
+                    </div><br/><br/>
+                    <h3>My process</h3><br/>
+                    <img src="/Figma.png" class="img-fluid" /><br/><br/><br/>                     
                 </div>
             </div>
             
