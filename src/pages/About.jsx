@@ -28,8 +28,8 @@ const downloadTxtFile = () => {
 function About() {
     return(
         <Container as="section" maxWidth="4xl" my="50px">
-            <Heading as="h1" mt="50px">About</Heading><br/>
-            <Text>
+            <Heading as="h2" mt="50px">About</Heading><br/>
+            <Text as="p">
                 With just under 10 years of experience in Graphic Design and UI/UX, I am a styling expert. My toolkit includes Figma and Adobe Creative Cloud. 
                 I am well versed in WCAG standards and accessibility testing. I have a Web Development Certificate from Michigan State University. 
                 My technical skills include React.js, Redux.js, Apollo GraphQL, HTML, CSS, Bootstrap, Chakra UI, and JavaScript. Let's work together!
