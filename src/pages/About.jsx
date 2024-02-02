@@ -25,10 +25,10 @@ function About() {
                 My technical skills include React.js, Redux.js, Apollo GraphQL, HTML, CSS, Bootstrap, Chakra UI, and JavaScript. Let's work together!
             </Text>
             <HStack mb="30px">
-            <Link to="https://www.linkedin.com/in/beatriz-strobel-50a58a27b" isexternal="true" target="blank">
+            <Link to="https://www.linkedin.com/in/beatriz-strobel-50a58a27b" aria-label="LinkedIn Profile" isexternal="true" target="blank">
                 <LinkedInIcon />
             </Link>
-            <Link to="https://github.com/beastrobel"  isexternal="true" target="blank">
+            <Link to="https://github.com/beastrobel" aria-label="GitHub Profile" isexternal="true" target="blank">
                 <GitHubIcon />
             </Link>
             </HStack>   
