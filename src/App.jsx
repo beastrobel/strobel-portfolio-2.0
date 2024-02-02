@@ -1,21 +1,18 @@
-import './App.css';
-import Home from './components/Home';
-import Navbar from './Navbar';
-import Portfolio from './components/Portfolio';
-import { Route, Routes } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import { ChakraProvider } from '@chakra-ui/react';
+import theme from './utils/theme';
+import '@fontsource-variable/figtree';
 
 function App() {
-return (
-    <>
-    <Navbar/>
-    <div class="container">
-        <Routes>
-            <Route path ="/" element={<Home/>} />
-            <Route path ="/portfolio" element={<Portfolio/>} />
-        </Routes>
-    </div>
-    </>
-)    
+    return (
+        <ChakraProvider theme={theme}>
+            <Navbar/>   
+                <Outlet />    
+            <Footer/>
+        </ChakraProvider >        
+    );    
 }
 
 export default App;
