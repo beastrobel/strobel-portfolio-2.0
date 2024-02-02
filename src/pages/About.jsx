@@ -15,10 +15,20 @@ const buttonStyles = {
     fontSize: "16px",
 };
 
+const downloadTxtFile = () => {
+    const pdfUrl = "/ResumeBeatrizStrobel.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "ResumeBeatrizStrobel.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 function About() {
     return(
         <Container as="section" maxWidth="4xl" my="50px">
-            <Heading as="h3" mt="50px">About</Heading><br/>
+            <Heading as="h1" mt="50px">About</Heading><br/>
             <Text>
                 With just under 10 years of experience in Graphic Design and UI/UX, I am a styling expert. My toolkit includes Figma and Adobe Creative Cloud. 
                 I am well versed in WCAG standards and accessibility testing. I have a Web Development Certificate from Michigan State University. 
@@ -32,7 +42,7 @@ function About() {
                 <GitHubIcon />
             </Link>
             </HStack>   
-            <Link to="/ResumeBeatrizStrobel.pdf" download="ResumeBeatrizStrobel.pdf" target="blank"><Button sx={buttonStyles} _hover={{ bgColor: "white", color: "black "}}>Download Resume</Button></Link>                
+            <Button sx={buttonStyles} _hover={{ bgColor: "white", color: "black "}} id="downloadBtn" onClick={downloadTxtFile} value="download" target="blank">Download Resume</Button>              
         </Container>
         );
     }
