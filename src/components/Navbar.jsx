@@ -22,7 +22,7 @@ const brandStyles = {
 function Navbar() {
     return(
         <Flex as="nav" sx ={navStyles}>
-                <Heading sx={brandStyles} >Beatriz Strobel</Heading>
+            <Heading sx={brandStyles} >Beatriz Strobel</Heading>
         </Flex>
     );
 }

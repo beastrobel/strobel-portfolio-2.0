@@ -27,7 +27,6 @@ function Home() {
             <About />
             <Portfolio />
             <Process />
-
          </>
     );
 }
