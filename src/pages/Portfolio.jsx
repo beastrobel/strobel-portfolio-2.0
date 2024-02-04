@@ -1,39 +1,34 @@
-import { Container, Heading, Text, Button, Image, HStack, Box } from "@chakra-ui/react";
+import { Container, Heading, Text, Button, Image, HStack, Box, Grid, GridItem, Center } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import Hero from "../components/Hero";
+import '../utils/link.css';
 
 //Chakra UI styling
 const linkStyles = {
     fontWeight: "600",
     color: "teal"
-}
+};
 
 function Portfolio() {
     return(
-        <Container as="section" id="Portfolio" maxWidth="4xl" my="50px">
+        <Container maxWidth="4xl" mt="50px" mb="120px">
         <Heading as="h2" mt="50px">Portfolio</Heading><br/>
-            <Heading as="h3" fontSize="24px">Umbrella Weather App</Heading>
-            <Text as="p">
-                Umbrella is a single page web application built with React and powered by OpenWeatherMap APIs. 
-                Umbrella allows users to search weather data by city, and it returns the temperature, a weather icon, and the weather description.</Text>
-            <Link to="https://umbrella-weather.onrender.com" target="blank"><Text sx={linkStyles}>Deployed web application</Text></Link>
-            <Link to="https://github.com/beastrobel/umbrella-2.0" target="blank"><Text sx={linkStyles}>GitHub repository</Text></Link>
-            <Image src="/Umbrella.png" mb="30px" alt="Umbrella App Desktop View" />
-            <Heading as="h3" fontSize="24px">The Programmer's Guide to the Galaxy</Heading>
-            <Text as="p">
-                The Programmer's Guide to the Galaxy is a full-stack web application built with React, GraphQL, Express and MongoDB,
-                and styled with Chakra UI. I worked collaboratively with other students on this project.</Text>
-            <Link to="https://programmers-guide-to-the-galaxy.onrender.com" target="blank"><Text sx={linkStyles}>Deployed web application</Text></Link>
-            <Link to="https://github.com/beastrobel/project3" target="blank"><Text sx={linkStyles}>GitHub repository</Text></Link>
-            <Image src="/ProgrammersGuide.png" mb="30px" alt="The Programmer's Guide to the Galaxy Desktop View"/>
-            <Heading as="h3" fontSize="24px">Social Network API</Heading>
-            <Text as="p">
-                The Social Network API allows the user to view, add, modify, and delete Users, 
-                Thoughts, Reactions, and Friends. The application was developed using NoSQL MongoDB and Express. It uses mongoose models and schemas to 
-                create BSON objects for the social network database. The user is able to perform CRUD operations using Insomnia.</Text>
-            <Link to="https://github.com/beastrobel/social-network-api" target="blank"><Text sx={linkStyles}>GitHub repository</Text></Link>
-            <video className="mx-auto d-block col-12 col-md-12 col-lg-12 p-5" controls >
-                <source src="social-network-api.webm" type="video/mp4" />
-            </video><br/>
+            <Hero /><br/>          
+                <Box h="100px" colSpan={2} bg='#e9f2f7' borderRadius="10px" mb="30px">
+                    <Link to="/Umbrella" className="dropdown-item">    
+                        <Center p={10} fontFamily="Pacifico" fontSize="24px">Umbrella</Center>
+                    </Link> 
+                </Box>    
+                <Box h="100px" colSpan={2} bg='#f2f0f7' borderRadius="10px" mb="30px">
+                    <Link to="/Programmers-Guide" className="dropdown-item"> 
+                        <Center p={10} fontSize="20px" fontWeight="800" lineHeight="20px" textAlign="center">The Programmer's Guide to the Galaxy</Center>
+                    </Link>
+                </Box>       
+                <Box h="100px" colSpan={2} bg='#f7edf2' borderRadius="10px" mb="30px">
+                    <Link to="/Social-Network" className="dropdown-item"> 
+                        <Center p={10} fontSize="20px" fontWeight="600" lineHeight="20px" letterSpacing="6px" textAlign="center">SOCIAL MEDIA API</Center>
+                    </Link>    
+                </Box>    
         </Container>      
     )
 };

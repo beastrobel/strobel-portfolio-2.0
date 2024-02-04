@@ -1,7 +1,6 @@
 import { Container, Heading, Text, Button, Image, HStack, Box } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import Hero from "../components/Hero";
-import About from "../pages/About";
+import Profile from "./Profile";
 import Portfolio from "../pages/Portfolio";
 import Process from "../pages/Process";
 
@@ -21,12 +20,15 @@ function Home() {
 
     return(
         <>
-            <Box as="section">
-                <Hero />
-            </Box> 
-            <About />
-            <Portfolio />
-            <Process />
+            <section id="profile">
+                <Profile />
+            </section> 
+            <section id="portfolio">
+                <Portfolio />
+            </section>
+            <section id="process">
+                <Process />
+            </section>
          </>
     );
 }

@@ -20,7 +20,7 @@ const linkStyles = {
     color: "teal"
 };
 
-function About() {
+function Profile() {
     //Media Query
     const [isLargerThan800] = useMediaQuery('(min-width: 800px)');
     if (isLargerThan800) {
@@ -84,5 +84,5 @@ function About() {
     }
 }    
             
-export default About;
+export default Profile;
 

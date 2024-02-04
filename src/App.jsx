@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './utils/theme';
 import '@fontsource-variable/figtree';
+import '@fontsource/pacifico';
 
 function App() {
     return (
