@@ -6,7 +6,8 @@ I designed and developed my portfolio from scratch. I started by building lo-fi 
 ## Usage
 Please visit my portfolio at https://beatriz-strobel-portfolio.onrender.com/
 
-![Screenshot (195)](https://github.com/beastrobel/strobel-portfolio-2.0/assets/137853377/22cb615f-7c1a-4cd3-b46f-aa9d81ef19f4)
+![Screenshot (212)](https://github.com/beastrobel/strobel-portfolio-2.0/assets/137853377/b2c6fac3-db69-47d5-8c54-9a9f330245fe)
+
 
 ## License
 MIT License
