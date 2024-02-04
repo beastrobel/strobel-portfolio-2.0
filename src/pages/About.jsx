@@ -30,12 +30,18 @@ function About() {
                     <GridItem colSpan={2} gap={3}>
                         <Image src="/BeatrizStrobel.jpg" w="200px" borderRadius="200px" m="55px"  />
                     </GridItem>
-                    <GridItem colSpan={3} gap={3} p={2}>
-                        <Heading as="h2" fontSize="48px" lineHeight="52px">About</Heading>
+                    <GridItem colSpan={3} gap={3}>
+                        <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
-                            With just under 10 years of experience in Graphic Design and UI/UX, I am a styling expert. My toolkit includes Figma and Adobe Creative Cloud. 
-                            I am well versed in WCAG standards and accessibility testing. I have a Web Development Certificate from Michigan State University. 
-                            My technical skills include React.js, Redux.js, Apollo GraphQL, HTML, CSS, Bootstrap, Chakra UI, and JavaScript. Let's work together!
+                            I am passionate about design and technology. In my current and previous roles, I have had opportunities to design and develop websites. Last year, I assumed the role of UI/UX Lead for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
+                            honing my craft, I look forward to intergrating technology into my design practice and growing my career in UI/UX.
+                            <br/><br/>
+                            I am always looking to expand my skill set. This year, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
+                            CSS, Javascript, JQuery, Bootstrap, Node.js, MySQL, and MongoDB. I have been working on a variety of personal projects to continue to strengthen my programming skills.
+                            <br/><br/>
+                            When I'm not designing or programming, I can be found flipping through the vinyl crates at the corner record shop.
+
+
                         </Text>
                         <Text sx={linkStyles}>
                         <Link to="/ResumeBeatrizStrobel.pdf" isexternal="true" target="blank"> Resume </Link>
@@ -58,13 +64,15 @@ function About() {
                         <Center>
                             <Image src="/BeatrizStrobel.jpg" w="200px" borderRadius="200px" mb="55px" />
                         </Center>    
-                        <Heading as="h1" fontSize="24px" fontWeight="600">Hi, I'm Beatriz Strobel.</Heading>
-                        <Heading as="h2" fontSize="48px" lineHeight="52px">I develop user-friendly interfaces.</Heading>
-                        <Text as="p" fontSize="21px">UI/UX Designer | Web Developer</Text>
+                        <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
-                            With just under 10 years of experience in Graphic Design and UI/UX, I am a styling expert. My toolkit includes Figma and Adobe Creative Cloud. 
-                            I am well versed in WCAG standards and accessibility testing. I have a Web Development Certificate from Michigan State University. 
-                            My technical skills include React.js, Redux.js, Apollo GraphQL, HTML, CSS, Bootstrap, Chakra UI, and JavaScript. Let's work together!
+                            I am passionate about design and technology. In my current and previous roles, I have had opportunities to design and develop websites. Last year, I assumed the role of UI/UX Lead for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
+                            honing my craft, I look forward to intergrating technology into my design practice and growing my career in UI/UX.
+                            <br/><br/>
+                            I am always looking to expand my skill set. This year, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
+                            CSS, Javascript, JQuery, Bootstrap, Node.js, MySQL, and MongoDB. I have been working on a variety of personal projects to continue to strengthen my programming skills.
+                            <br/><br/>
+                            When I'm not designing or programming, I can be found flipping through the vinyl crates at the corner record shop.
                         </Text>
                         <Text sx={linkStyles}>
                         <Link to="/ResumeBeatrizStrobel.pdf" isexternal="true" target="blank"> Resume </Link>
