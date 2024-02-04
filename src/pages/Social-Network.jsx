@@ -10,7 +10,7 @@ const linkStyles = {
 function Social() {
     return(
         <Container maxWidth="4xl" my="50px">
-            <Heading as="h3" fontSize="24px">Social Network API</Heading>
+            <Heading as="h3" fontSize="36px">Social Network API</Heading>
             <Text as="p">
                 The Social Network API allows the user to view, add, modify, and delete Users, 
                 Thoughts, Reactions, and Friends. The application was developed using NoSQL MongoDB and Express. It uses mongoose models and schemas to 

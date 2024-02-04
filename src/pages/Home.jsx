@@ -26,9 +26,6 @@ function Home() {
             <section id="portfolio">
                 <Portfolio />
             </section>
-            <section id="process">
-                <Process />
-            </section>
          </>
     );
 }

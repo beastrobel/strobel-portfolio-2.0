@@ -34,8 +34,8 @@ function Navbar() {
                     <li className="nav-item active dropdown">
                         <Link to="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <Link to="/Programmers-Guide" className="dropdown-item">The Programmer's Guide</Link>
                                 <Link to="/Umbrella" className="dropdown-item">Umbrella Weather</Link>
-                                <Link to="/Programmers-Guide" className="dropdown-item">Programmer's Guide</Link>
                                 <Link to="/Social-Network" className="dropdown-item">Social Network API</Link>
                             </div>
                     </li>

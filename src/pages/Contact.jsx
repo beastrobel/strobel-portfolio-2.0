@@ -12,11 +12,11 @@ const linkStyles = {
 function Contact() {
     return(
         <Container maxWidth="4xl" my="50px">
-        <Heading as="h3" fontSize="24px" mt="30px">Contact</Heading>
+        <Heading as="h3" fontSize="36px" mt="30px">Contact</Heading>
         <Text as="p"><EmailIcon /> beatrizstrobel@proton.me</Text>
         <Text as="p"><PhoneIcon /> (616) 228-5154</Text>
         <Flex>
-        <LinkedInIcon /><Text as="p"> https://www.linkedin.com/in/beatriz-strobel-50a58a27b</Text>
+        <LinkedInIcon /><Text as="p" ml="5px"> https://www.linkedin.com/in/beatriz-strobel-50a58a27b</Text>
         </Flex>
     </Container>
     );
