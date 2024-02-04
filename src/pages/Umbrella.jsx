@@ -9,7 +9,6 @@ const linkStyles = {
 
 function Umbrella() {
     return(
-        <>
         <Container maxWidth="4xl" my="50px">
             <Heading as="h3" fontSize="24px" mt="30px">Umbrella Weather App</Heading>
             <Text as="p">
@@ -19,7 +18,6 @@ function Umbrella() {
             <Link to="https://github.com/beastrobel/umbrella-2.0" target="blank"><Text sx={linkStyles}>GitHub repository</Text></Link>
             <Image src="/Umbrella.png" mb="30px" alt="Umbrella App Desktop View" />
         </Container>
-        </>
     );
 }
 

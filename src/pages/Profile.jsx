@@ -46,7 +46,7 @@ function Profile() {
                          &#x2022;
                         <Link to="https://github.com/beastrobel" isexternal="true" target="blank"> GitHub </Link>
                         &#x2022;
-                        <Link to="/Contact" isexternal="true" target="blank"> Email </Link>
+                        <Link to="/Contact"> Email </Link>
                         </Text>
                     </GridItem>   
                 </Grid>
@@ -75,7 +75,7 @@ function Profile() {
                         &#x2022;
                         <Link to="https://github.com/beastrobel" isexternal="true" target="blank"> GitHub </Link>
                         &#x2022;
-                        <Link to="/Contact" isexternal="true" target="blank"> Email </Link>
+                        <Link mailto="/Contact"> Email </Link>
                         </Text> 
                     </GridItem>   
                 </Grid>
