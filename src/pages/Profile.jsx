@@ -33,11 +33,12 @@ function Profile() {
                     <GridItem colSpan={3} gap={3} p={2}>
                         <Heading as="h1" fontSize="24px" fontWeight="600">Hi, I'm Beatriz Strobel.</Heading>
                         <Heading as="h2" fontSize="48px" lineHeight="52px">I develop user-friendly interfaces.</Heading>
-                        <Text as="p" fontSize="18px">UI/UX Designer | Web Developer</Text>
+                        <Text as="p" fontSize="18px">Lead UX Designer</Text>
                         <Text as="p" display="flex" flex-wrap="wrap">
-                            With just under 10 years of experience in Graphic Design and UI/UX, I am a styling expert. My toolkit includes Figma and Adobe Creative Cloud. 
-                            I am well versed in WCAG standards and accessibility testing. I have a Web Development Certificate from Michigan State University. 
-                            My technical skills include React.js, Redux.js, Apollo GraphQL, HTML, CSS, Bootstrap, Chakra UI, and JavaScript. Let's work together!
+                            Lead UX Designer with just under 10 years of experience in Graphic Design, and a Web Development Certificate from Michigan State University. 
+                            Strong ability to design, prototype, and develop web applications. Effective at Agile and working in teams in a fast-paced environment. 
+                            Strong communication skills and project management skills. Passionate about continuous learning. Attentive to detail, proactive, and creative problem-solver. 
+                            Let's work together!
                         </Text>
                         <Text sx={linkStyles}>
                         <Link to="/ResumeBeatrizStrobel.pdf" isexternal="true" target="blank"> Resume </Link>

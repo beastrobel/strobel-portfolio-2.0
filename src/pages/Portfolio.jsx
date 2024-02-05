@@ -16,7 +16,7 @@ function Portfolio() {
             <Hero /><br/> 
                 <Box h="100px" colSpan={2} bg='#f2f0f7' borderRadius="10px" mb="30px">
                     <Link to="/Programmers-Guide" className="dropdown-item"> 
-                        <Center p={10} fontSize="22px" fontWeight="800" lineHeight="20px" textAlign="center">The Programmer's Guide to the Galaxy</Center>
+                        <Center p={8} fontSize="22px" fontWeight="800" lineHeight="20px" textAlign="center">The Programmer's Guide<br/> to the Galaxy</Center>
                     </Link>
                 </Box>          
                 <Box h="100px" colSpan={2} bg='#e9f2f7' borderRadius="10px" mb="30px">
