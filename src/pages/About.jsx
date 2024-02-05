@@ -33,7 +33,7 @@ function About() {
                     <GridItem colSpan={3} gap={3}>
                         <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
-                            I am passionate about design and technology. In my current and previous roles, I have had opportunities to design and develop websites. Last year, I assumed the role of UX Lead Designer (Magazine Archive Lead) for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
+                            I am passionate about design and technology. Last year, I assumed the role of UX Lead Designer (Magazine Archive Lead) for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
                             honing my craft, I look forward to intergrating technology into my design practice and growing my career in UI/UX.
                             <br/><br/>
                             I am always looking to expand my skill set. This year, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
@@ -66,7 +66,7 @@ function About() {
                         </Center>    
                         <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
-                            I am passionate about design and technology. In my current and previous roles, I have had opportunities to design and develop websites. Last year, I assumed the role of UX Lead Designer (Magazine Archive Lead) for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
+                            I am passionate about design and technology. Last year, I assumed the role of UX Lead Designer (Magazine Archive Lead) for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
                             honing my craft, I look forward to intergrating technology into my design practice and growing my career in UI/UX.
                             <br/><br/>
                             I am always looking to expand my skill set. This year, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
