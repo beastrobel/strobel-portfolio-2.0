@@ -12,7 +12,7 @@ const linkStyles = {
 function Portfolio() {
     return(
         <Container maxWidth="4xl" mt="50px" mb="120px">
-        <Heading as="h2" mt="50px">Portfolio</Heading><br/>
+        <Heading as="h2" mt="50px">My Work</Heading><br/>
             <Hero /><br/> 
                 <Box h="100px" colSpan={2} bg='#EFF5DD' borderRadius="10px" mb="30px">
                     <Link to="/Magazine-Archive" className="dropdown-item"> 
@@ -34,6 +34,16 @@ function Portfolio() {
                         <Center p={10} fontSize="20px" fontWeight="600" lineHeight="20px" letterSpacing="6px" textAlign="center">SOCIAL MEDIA API</Center>
                     </Link>    
                 </Box>    
+            <Heading as="h2" mt="50px">About this portfolio website</Heading><br/>
+            <Text>I designed and developed my portfolio website from scratch. I created wireframes and prototypes using Figma, and then I made the website come to life in Visual Code.
+                It was developed in ReactJS, it contains HTML, CSS and JavaScript components, and it was deployed on Render.</Text>  
+                <Text sx={linkStyles}>
+                <Link to="https://beatrizstrobelportfolio.onrender.com/" target="blank">Deployed web application </Link>
+                &#x2022;
+                <Link to="https://github.com/beastrobel/strobel-portfolio-2.0" target="blank"> GitHub repository</Link>
+            </Text> <br/>
+                <Image src="/Figma.png" /><br/>
+                <Image src="/Process.png" />
         </Container>      
     )
 };
