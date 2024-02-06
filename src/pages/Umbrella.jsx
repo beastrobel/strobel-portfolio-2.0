@@ -26,13 +26,13 @@ function Umbrella() {
                 Umbrella is a single page web application built with React and powered by OpenWeatherMap APIs. 
                 Umbrella allows users to search weather data by city, and it returns the temperature, a weather icon, and the weather description.</Text>
             <Text sx={linkStyles}>
-                <Link to="https://umbrella-weather.onrender.com" target="blank">Deployed Web Application </Link>
+                <Link to="https://umbrella-weather-2.onrender.com" target="blank">Deployed Web Application </Link>
                 &#x2022;
                 <Link to="https://github.com/beastrobel/umbrella-2.0" target="blank"> GitHub Repository</Link>
             </Text> 
-            <Link to="https://umbrella-weather.onrender.com" target="blank">
+            <Link to="https://umbrella-weather-2.onrender.com" target="blank">
                 <Image src="/Umbrella-Mockup.jpg" mb="30px" alt="Mockup" mt="50px" /></Link>
-            <Link to="https://umbrella-weather.onrender.com" target="blank">
+            <Link to="https://umbrella-weather-2.onrender.com" target="blank">
                 <Image src="/Umbrella.png" mb="30px" alt="Desktop View" mt="50px" />
             </Link>    
             <Grid templateColumns='repeat(4, 1fr)'>

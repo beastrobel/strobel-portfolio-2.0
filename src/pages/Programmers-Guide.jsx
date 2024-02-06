@@ -16,13 +16,13 @@ function Guide() {
                 It was a 2 week sprint with a 3 person team. My role was Frontend Developer. I built the React components,
                 developed the login and signup forms, and styled the application using the Chakra UI library.</Text>
             <Text sx={linkStyles}>
-                <Link to="https://programmers-guide-to-the-galaxy.onrender.com" target="blank">Deployed web application </Link>
+                <Link to="https://the-programmers-guide-to-the-galaxy.onrender.com" target="blank">Deployed web application </Link>
                 &#x2022;
                 <Link to="https://github.com/beastrobel/project3" target="blank"> GitHub repository</Link>
             </Text>
-            <Link to="https://programmers-guide-to-the-galaxy.onrender.com" target="blank">
+            <Link to="https://the-programmers-guide-to-the-galaxy.onrender.com" target="blank">
                 <Image src="/Guide-Mockup.jpg" mb="30px" mt="50px" alt="Mockup"/></Link>
-            <Link to="https://programmers-guide-to-the-galaxy.onrender.com" target="blank">
+            <Link to="https://the-programmers-guide-to-the-galaxy.onrender.com" target="blank">
                 <Image src="/ProgrammersGuide.png" mb="30px" mt="50px" alt="Desktop View"/></Link>
             <Grid templateColumns='repeat(4, 1fr)'>
                 <GridItem colSpan={2} gap={3} p={2}>

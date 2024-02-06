@@ -14,6 +14,11 @@ function Portfolio() {
         <Container maxWidth="4xl" mt="50px" mb="120px">
         <Heading as="h2" mt="50px">Portfolio</Heading><br/>
             <Hero /><br/> 
+                <Box h="100px" colSpan={2} bg='#EFF5DD' borderRadius="10px" mb="30px">
+                    <Link to="/Magazine-Archive" className="dropdown-item"> 
+                        <Center><Image src="/FAITHArchive.png" h="100px"/></Center>
+                    </Link>    
+                </Box>   
                 <Box h="100px" colSpan={2} bg='#f2f0f7' borderRadius="10px" mb="30px">
                     <Link to="/Programmers-Guide" className="dropdown-item"> 
                         <Center p={8} fontSize="22px" fontWeight="800" lineHeight="20px" textAlign="center">The Programmer's Guide<br/> to the Galaxy</Center>
