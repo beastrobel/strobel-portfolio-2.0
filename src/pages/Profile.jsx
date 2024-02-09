@@ -28,7 +28,7 @@ function Profile() {
             <Container maxWidth="4xl" my="50px">
                 <Grid templateColumns='repeat(5, 1fr)'>
                     <GridItem colSpan={2} gap={3}>
-                        <Image src="/BeatrizStrobel.jpg" w="200px" borderRadius="200px" m="55px"  />
+                        <Image src="/BeatrizStrobel.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" m="55px"  />
                     </GridItem>
                     <GridItem colSpan={3} gap={3} p={2}>
                         <Heading as="h1" fontSize="24px" fontWeight="600">Hi, I'm Beatriz Strobel.</Heading>
@@ -59,7 +59,7 @@ function Profile() {
                 <Grid templateColumns='repeat(5, 1fr)'>
                     <GridItem colSpan={5} p={2}>
                         <Center>
-                            <Image src="/BeatrizStrobel.jpg" w="200px" borderRadius="200px" mb="55px" />
+                            <Image src="/BeatrizStrobel.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" mb="55px" />
                         </Center>    
                         <Heading as="h1" fontSize="21px" fontWeight="600">Hi, I'm Beatriz Strobel.</Heading>
                         <Heading as="h2" fontSize="42px" lineHeight="48px">I design user-friendly interfaces.</Heading>

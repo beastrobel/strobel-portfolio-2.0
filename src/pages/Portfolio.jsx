@@ -43,13 +43,13 @@ function Portfolio() {
                 </Link>
                 <Text>Photo by James Kovin on Unsplash </Text>  
             <Heading as="h2" mt="50px" fontSize="24px">WEB DEV PROJECTS</Heading><br/>
-                    <Link to="/Archive">
+                    <Link to="/Programmers-Guide">
                     <Box sx={heroBoxStyles}>
-                        <Image src="/Guide-Mockup.jpg" sx={imageStyles} _hover={{opacity: "0%"}}/>
+                        <Image src="/Guide-Mockup.jpg" alt="The Programmers' Guide to the Galaxy App Mockup" sx={imageStyles} _hover={{opacity: "0%"}}/>
                         <Text sx={heroTextStyles} fontWeight="800" fontSize="42px" lineHeight="52px">The Programmer's Guide to the Galaxy</Text>  
                     </Box> 
                 </Link> <br/>
-                    <Link to="/Archive">
+                    <Link to="/Umbrella">
                     <Box sx={heroBoxStyles}>
                         <Image src="/Umbrella-Mockup.jpg" alt="Umbrella App Mockup" sx={imageStyles} _hover={{opacity: "0%"}}/>
                         <Text sx={heroTextStyles} fontSize="5xl" fontFamily="pacifico">Umbrella</Text>   
@@ -58,15 +58,15 @@ function Portfolio() {
           
 
                 <Heading as="h2" mt="50px">About this portfolio website</Heading><br/>
-                <Text>I designed and developed my portfolio website from scratch. I created wireframes and prototypes using Figma, and then I made the website come to life in Visual Code.
-                    It was developed in ReactJS, it contains HTML, CSS and JavaScript components, and it was deployed on Render.</Text>  
+                <Text>I designed and developed my portfolio website from scratch. I created wireframes and prototypes using Figma, and then I made the website come to life in Visual Studio Code.
+                    It was developed with ReactJS, it contains HTML, CSS and JavaScript components, and it was deployed on Render.</Text>  
                     <Text sx={linkStyles}>
                     <Link to="https://beatrizstrobelportfolio.onrender.com/" target="blank">Deployed web application </Link>
                     &#x2022;
                     <Link to="https://github.com/beastrobel/strobel-portfolio-2.0" target="blank"> GitHub repository</Link>
                 </Text> <br/>
-                    <Image src="/Figma.png" /><br/>
-                    <Image src="/Process.png" />
+                    <Image src="/Figma.png" alt="Portfolio Figma Wireframes"/><br/>
+                    <Image src="/Process.png" alt="Screenshot of Portfolio in Visual Studio Code" />
         </Container>      
     )
 };

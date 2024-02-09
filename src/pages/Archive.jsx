@@ -13,7 +13,6 @@ function Archive() {
         <Container maxWidth="4xl" my="50px">
             <Heading as="h3" fontSize="36px">Archive</Heading>
             <Text>This UX case study was created by me to showcase my process. </Text>
-            <Image src="/james-kovin-F2h_WbKnX4o-unsplash.jpg" alt="Soundboard" mb="30px" mt="50px" />
             <Heading as="h5" fontSize="24px" mt="50px">Client: Archive Recording Studio</Heading>
             <Heading as="h5" fontSize="24px" mt="30px">Project Brief</Heading>
                 <Text as="p">

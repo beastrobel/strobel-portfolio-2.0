@@ -28,7 +28,7 @@ function About() {
             <Container maxWidth="4xl" my="50px">
                 <Grid templateColumns='repeat(5, 1fr)'>
                     <GridItem colSpan={2} gap={3}>
-                        <Image src="/BeatrizStrobel.jpg" w="200px" borderRadius="200px" m="55px"  />
+                        <Image src="/BeatrizStrobel.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" m="55px"  />
                     </GridItem>
                     <GridItem colSpan={3} gap={3}>
                         <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
@@ -62,7 +62,7 @@ function About() {
                 <Grid templateColumns='repeat(5, 1fr)'>
                     <GridItem colSpan={5} p={2}>
                         <Center>
-                            <Image src="/BeatrizStrobel.jpg" w="200px" borderRadius="200px" mb="55px" />
+                            <Image src="/BeatrizStrobel.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" mb="55px" />
                         </Center>    
                         <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
