@@ -8,7 +8,7 @@ import Guide from './pages/Programmers-Guide.jsx';
 import Umbrella from './pages/Umbrella.jsx';
 import About from './pages/About.jsx';
 import Social from './pages/Social-Network.jsx';
-import Archive from './pages/Magazine-Archive.jsx';
+import Archive from './pages/Archive.jsx';
 
 const router = createBrowserRouter([
   {
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
         element: <Social />,
       },
       {
-        path: '/Magazine-Archive',
+        path: '/Archive',
         element: <Archive />,
       }
     ]

@@ -17,7 +17,7 @@ const buttonStyles = {
 
 const linkStyles = {
     fontWeight: "600",
-    color: "teal"
+    color: "teal.400"
 };
 
 function Profile() {
@@ -61,9 +61,9 @@ function Profile() {
                         <Center>
                             <Image src="/BeatrizStrobel.jpg" w="200px" borderRadius="200px" mb="55px" />
                         </Center>    
-                        <Heading as="h1" fontSize="24px" fontWeight="600">Hi, I'm Beatriz Strobel.</Heading>
-                        <Heading as="h2" fontSize="48px" lineHeight="52px">I design user-friendly interfaces.</Heading>
-                        <Text as="p" fontSize="21px">Lead UX Designer</Text>
+                        <Heading as="h1" fontSize="21px" fontWeight="600">Hi, I'm Beatriz Strobel.</Heading>
+                        <Heading as="h2" fontSize="42px" lineHeight="48px">I design user-friendly interfaces.</Heading>
+                        <Text as="p" fontSize="18px">Lead UX Designer</Text>
                         <Text as="p" display="flex" flex-wrap="wrap">
                             Lead UX Designer with just under 10 years of experience in Graphic Design, and a Web Development Certificate from Michigan State University. 
                             Strong ability to design, prototype, and develop web applications. Effective at Agile and working in teams in a fast-paced environment. 

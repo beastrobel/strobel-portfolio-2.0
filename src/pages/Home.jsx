@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Profile from "./Profile";
 import Portfolio from "../pages/Portfolio";
 import Process from "../pages/Process";
+import Hero from "../components/Hero";
 
 //Chakra UI Styling
 const buttonStyles = {
@@ -20,6 +21,7 @@ function Home() {
 
     return(
         <>
+            <Hero /> 
             <section id="profile">
                 <Profile />
             </section> 
