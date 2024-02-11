@@ -18,6 +18,7 @@ function Archive() {
             <Button colorScheme="purple">View Figma Prototype</Button></a>   
             </Center>
             <Heading as="h5" fontSize="24px" mt="50px">Client: Archive Recording Studio</Heading>
+            <Heading as="h5" fontSize="24px" mt="50px">Timeframe: 1 Week Sprint</Heading>
             <Heading as="h5" fontSize="24px" mt="30px">Project Brief</Heading>
                 <Text as="p">
                     Archive is a Grand Rapids based recording studio that specializes in providing services to independent artists. Their recording services include studio recording, music production, and mastering.
@@ -66,7 +67,7 @@ function Archive() {
             </Center>
             
             <Heading as="h5" fontSize="24px" mt="30px">Takeaways</Heading>
-            <Text>This UX Case Study became a passion project for me, as I spent countless hours learning about the inner-workings of a recording studio. It showcases my
+            <Text>This UX case study became a passion project for me, as I spent countless hours learning about the inner-workings of a recording studio. It showcases my
                 storytelling ability as a UX Designer. I conceptualized a unique brand with user experience in mind. I incorporated my three personas throught the design, and thought carefully 
                 about how each of them would interact with the website. For future development, I plan to design hi-fi wireframes for the User Dashboard as well.
 
