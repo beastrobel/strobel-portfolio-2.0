@@ -23,7 +23,7 @@ function Archive() {
                     Archive is a Grand Rapids based recording studio that specializes in providing services to independent artists. Their recording services include studio recording, music production, and mastering.
                     Their formats include digital, CD, and vinyl. They provide transfer services to convert analogue formats into digital files. Archive's promotion services include a free design studio tool
                     available to clients who have completed a recording session. The design studio tool allows clients to choose from a variety of fonts and graphics to design their brand and album covers. 
-                    Archive has connections with a local radio station and promotes up-and-comming
+                    Archive has connections with a local radio station and promotes up-and-coming
                     independent artists. <br/><br/>
                     <b>The Challenge: </b>To design a new website for Archive that showcases their services and captures their unique brand. The website must be effective in driving user engagement and have a high conversion rate.<br/>
                     <b>Timeframe: </b>1 week sprint from concept to prototype.
