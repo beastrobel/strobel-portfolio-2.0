@@ -68,8 +68,8 @@ function Archive() {
             
             <Heading as="h5" fontSize="24px" mt="30px">Takeaways</Heading>
             <Text>This UX case study became a passion project for me, as I spent countless hours learning about the inner-workings of a recording studio. It showcases my
-                storytelling ability as a UX Designer. I conceptualized a unique brand with user experience in mind. I incorporated my three personas throught the design, and thought carefully 
-                about how each of them would interact with the website. For future development, I plan to design hi-fi wireframes for the User Dashboard as well.
+                storytelling ability as a UX Designer. I conceptualized a unique brand with user experience in mind. I incorporated my three personas throughout the design, and thought carefully 
+                about how each of them would interact with the website. For future development, I plan to design hi-fi wireframes for the dashboard as well.
 
             </Text>
         </Container>
