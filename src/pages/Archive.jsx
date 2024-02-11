@@ -18,7 +18,6 @@ function Archive() {
             <Button colorScheme="purple">View Figma Prototype</Button></a>   
             </Center>
             <Heading as="h5" fontSize="24px" mt="50px">Client: Archive Recording Studio</Heading>
-            <Heading as="h5" fontSize="24px" mt="50px">Timeframe: 1 Week Sprint</Heading>
             <Heading as="h5" fontSize="24px" mt="30px">Project Brief</Heading>
                 <Text as="p">
                     Archive is a Grand Rapids based recording studio that specializes in providing services to independent artists. Their recording services include studio recording, music production, and mastering.
@@ -26,7 +25,8 @@ function Archive() {
                     available to clients who have completed a recording session. The design studio tool allows clients to choose from a variety of fonts and graphics to design their brand and album covers. 
                     Archive has connections with a local radio station and promotes up-and-comming
                     independent artists. <br/><br/>
-                    <b>The Challenge: </b>To design a new website for Archive that showcases their services and captures their unique brand. The website must be effective in driving user engagement and have a high conversion rate. 
+                    <b>The Challenge: </b>To design a new website for Archive that showcases their services and captures their unique brand. The website must be effective in driving user engagement and have a high conversion rate.<br/>
+                    <b>Timeframe: </b>1 week sprint from concept to prototype.
                 </Text>
             <Heading as="h5" fontSize="24px" mt="30px">User Stories</Heading>
                 <Heading as="h6" fontSize="18px" mt="30px">Jordan a.k.a. "Madditude" (He/Him)</Heading>
