@@ -1,6 +1,5 @@
-import { Container, Heading, Text, Button, Image, Box, Grid, GridItem, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Container, Heading, Text, Button, Image, Box, Grid, GridItem, UnorderedList, ListItem, Center } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import Login from "../components/Login"
 
 //Chakra UI styling
 const linkStyles = {
@@ -13,13 +12,18 @@ function Archive() {
         <Container maxWidth="4xl" my="50px">
             <Heading as="h3" fontSize="36px">Archive</Heading>
             <Text>This UX case study was created by me to showcase my process. </Text>
+            <Image src="/ArchiveThumbnail.png" alt="Archive UX" borderRadius="10px"/><br/>
+            <Center>
+            <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> 
+            <Button colorScheme="purple">View Figma Prototype</Button></a>   
+            </Center>
             <Heading as="h5" fontSize="24px" mt="50px">Client: Archive Recording Studio</Heading>
             <Heading as="h5" fontSize="24px" mt="30px">Project Brief</Heading>
                 <Text as="p">
                     Archive is a Grand Rapids based recording studio that specializes in providing services to independent artists. Their recording services include studio recording, music production, and mastering.
                     Their formats include digital, CD, and vinyl. They provide transfer services to convert analogue formats into digital files. Archive's promotion services include a free design studio tool
                     available to clients who have completed a recording session. The design studio tool allows clients to choose from a variety of fonts and graphics to design their brand and album covers. 
-                    They can also upload their own artwork. Clients can order copies of their recorded album from Archive, complete with the artwork they designed. Archive has connections with local radio stations and promotes up-and-comming
+                    Archive has connections with a local radio station and promotes up-and-comming
                     independent artists. <br/><br/>
                     <b>The Challenge: </b>To design a new website for Archive that showcases their services and captures their unique brand. The website must be effective in driving user engagement and have a high conversion rate. 
                 </Text>
@@ -55,9 +59,18 @@ function Archive() {
 
             <Heading as="h5" fontSize="24px" mt="30px">Wireframes</Heading>
             <Image src="/LoFi.png" alt="Lo-Fi Wireframes"/>
-            <Heading as="h5" fontSize="24px" mt="30px">Prototype</Heading>
+            <Image src="/HiFi.png" alt="Hi-Fi Wireframes"/>
+            <Center>
+            <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> 
+            <Button colorScheme="purple">View Figma Prototype</Button></a>   
+            </Center>
+            
             <Heading as="h5" fontSize="24px" mt="30px">Takeaways</Heading>
+            <Text>This UX Case Study became a passion project for me, as I spent countless hours learning about the inner-workings of a recording studio. It showcases my
+                storytelling ability as a UX Designer. I conceptualized a unique brand with user experience in mind. I incorporated my three personas throught the design, and thought carefully 
+                about how each of them would interact with the website. For future development, I plan to design hi-fi wireframes for the User Dashboard as well.
 
+            </Text>
         </Container>
     );
 }

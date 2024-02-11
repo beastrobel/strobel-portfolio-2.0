@@ -9,52 +9,34 @@ const linkStyles = {
     color: "teal"
 };
 
-const heroBoxStyles= {
-    bgGradient: "linear(to-tl, blue.600, purple.600)",
-    h: "400px",
-    position: "relative",
-    borderRadius: "10px",
-};
-
-const heroTextStyles= {
-    color: "white",
-    pos: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%,-50%)",
-};
-
-const imageStyles = {
-    boxSize: "full",
-    objectFit: "cover",
-    opacity: "50%",
-    borderRadius: "10px",
-};
-
 function Portfolio() {
     return(
         <Container maxWidth="4xl" mt="50px" mb="120px">
             <Heading as="h2" mt="50px" fontSize="24px">UX CASE STUDY</Heading><br/>
-                <Link to="/Archive">
-                    <Box sx={heroBoxStyles}>
-                        <Image src="/james-kovin-F2h_WbKnX4o-unsplash.jpg" alt="Soundboard" sx={imageStyles} _hover={{opacity: "0%"}}/>
-                        <Image src="/Archive_W.png" w="300px" alt="Archive Logo" sx={heroTextStyles} />  
-                    </Box> 
-                </Link>
-                <Text>Photo by James Kovin on Unsplash </Text>  
+                    <Box>
+                        <Image src="/ArchiveThumbnail.png" alt="Archive UX" borderRadius="10px"/><br/>
+                        <Center>
+                            <Link to="/Archive"><Button colorScheme="purple">View Case Study</Button>
+                        </Link></Center>
+                    </Box>
+
             <Heading as="h2" mt="50px" fontSize="24px">WEB DEV PROJECTS</Heading><br/>
-                    <Link to="/Programmers-Guide">
-                    <Box sx={heroBoxStyles}>
-                        <Image src="/Guide-Mockup.jpg" alt="The Programmers' Guide to the Galaxy App Mockup" sx={imageStyles} _hover={{opacity: "0%"}}/>
-                        <Text sx={heroTextStyles} fontWeight="800" fontSize="42px" lineHeight="52px">The Programmer's Guide to the Galaxy</Text>  
+                    
+                    <Box>
+                        <Image src="/Guide-Mockup.jpg" alt="The Programmers' Guide to the Galaxy App Mockup" borderRadius="10px"/><br/>
+                        <Center>
+                            <Link to="/Programmers-Guide"><Button colorScheme="purple">View Project</Button>
+                        </Link></Center>
                     </Box> 
-                </Link> <br/>
-                    <Link to="/Umbrella">
-                    <Box sx={heroBoxStyles}>
-                        <Image src="/Umbrella-Mockup.jpg" alt="Umbrella App Mockup" sx={imageStyles} _hover={{opacity: "0%"}}/>
-                        <Text sx={heroTextStyles} fontSize="5xl" fontFamily="pacifico">Umbrella</Text>   
+                <br/><br/>
+                    
+                    <Box>
+                        <Image src="/Umbrella-Mockup.jpg" alt="Umbrella App Mockup" borderRadius="10px"/><br/>
+                        <Center>
+                            <Link to="/Umbrella"><Button colorScheme="purple">View Project</Button>
+                        </Link></Center>
                     </Box> 
-                </Link> 
+                
           
 
                 <Heading as="h2" mt="50px">About this portfolio website</Heading><br/>

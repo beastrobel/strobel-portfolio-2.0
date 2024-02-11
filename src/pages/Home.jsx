@@ -20,8 +20,8 @@ const buttonStyles = {
 function Home() {
 
     return(
-        <>
-            <Hero /> 
+        <> 
+            <Hero/>
             <section id="profile">
                 <Profile />
             </section> 
