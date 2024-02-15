@@ -11,12 +11,12 @@ function Archive() {
     return(
         <Container maxWidth="4xl" my="50px">
             <Heading as="h3" fontSize="36px">Archive</Heading>
-            <Text>This UX case study was created by me to showcase my process. </Text>
-            <Image src="/ArchiveThumbnail.png" alt="Archive UX" borderRadius="10px"/><br/>
-            <Center>
-            <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> 
-            <Button colorScheme="purple">View Figma Prototype</Button></a>   
-            </Center>
+                <Text>This UX case study was created by me to showcase my process. </Text>
+                <Image src="/ArchiveThumbnail.png" alt="Archive UX" borderRadius="10px"/><br/>
+                <Center>
+                    <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> 
+                    <Button colorScheme="purple">View Figma Prototype</Button></a>   
+                </Center>
             <Heading as="h5" fontSize="24px" mt="50px">Client: Archive Recording Studio</Heading>
             <Heading as="h5" fontSize="24px" mt="30px">Project Brief</Heading>
                 <Text as="p">
@@ -53,25 +53,22 @@ function Archive() {
                         <ListItem ml="10px">Want to release a limited edition in vinyl.</ListItem>
                         <ListItem ml="10px">Want to design their own artwork.</ListItem>
                         </UnorderedList>
-                        <Heading as="h5" fontSize="24px" mt="30px">Information Architecture</Heading>
-            <Image src="/InformationArchitecture.png" alt="Information Architecture" />
+            <Heading as="h5" fontSize="24px" mt="30px">Information Architecture</Heading>
+                <Image src="/InformationArchitecture.png" alt="Information Architecture" />
             <Heading as="h5" fontSize="24px" mt="30px">Sketches</Heading>
-            <Image src="/Sketch.jpg" alt="Wireframe Sketches" />
-
+                <Image src="/Sketch.jpg" alt="Wireframe Sketches" />
             <Heading as="h5" fontSize="24px" mt="30px">Wireframes</Heading>
-            <Image src="/LoFi.png" alt="Lo-Fi Wireframes"/>
-            <Image src="/HiFi.png" alt="Hi-Fi Wireframes"/>
-            <Center>
-            <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> 
-            <Button colorScheme="purple">View Figma Prototype</Button></a>   
-            </Center>
-            
+                <Image src="/LoFi.png" alt="Lo-Fi Wireframes"/><br/>
+                <Image src="/HiFi.png" alt="Hi-Fi Wireframes"/>
+                <Center>
+                    <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> <br/>
+                    <Button colorScheme="purple">View Figma Prototype</Button></a>   
+                </Center>
             <Heading as="h5" fontSize="24px" mt="30px">Takeaways</Heading>
-            <Text>This UX case study became a passion project for me, as I spent countless hours learning about the inner-workings of a recording studio. It showcases my
-                storytelling ability as a UX Designer. I conceptualized a unique brand with user experience in mind. I incorporated my three personas throughout the design, and thought carefully 
-                about how each of them would interact with the website. For future development, I plan to design hi-fi wireframes for the dashboard as well.
-
-            </Text>
+                <Text>This UX case study became a passion project for me, as I spent countless hours learning about the inner-workings of a recording studio. It showcases my
+                    storytelling ability as a UX Designer. I conceptualized a unique brand with user experience in mind. I incorporated my three personas throughout the design, and thought carefully 
+                    about how each of them would interact with the website. For future development, I plan to design hi-fi wireframes for the dashboard as well.
+                </Text>
         </Container>
     );
 }
