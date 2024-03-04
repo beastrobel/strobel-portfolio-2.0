@@ -14,7 +14,7 @@ function Portfolio() {
         <Container maxWidth="4xl" mt="50px" mb="120px">
             <Heading as="h2" mt="50px" fontSize="24px">UX CASE STUDY</Heading><br/>
                     <Box>
-                        <Image src="/ArchiveThumbnail.png" alt="Archive UX" borderRadius="10px"/><br/>
+                        <Image src="/ArchiveThumbnail.jpg" alt="Archive UX" borderRadius="10px"/><br/>
                         <Center>
                             <Link to="/Archive"><Button colorScheme="purple">View Case Study</Button>
                         </Link></Center>
