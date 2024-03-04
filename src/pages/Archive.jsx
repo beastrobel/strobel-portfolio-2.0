@@ -14,14 +14,14 @@ function Archive() {
                 <Text>This UX case study was created by me to showcase my process. </Text>
                     <Image src="/DesktopVersion.png" alt="Desktop Version" borderRadius="10px"/>
                     <Center>
-                        <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=AMZBV4p5IrNs2nny-1&scaling=scale-down&page-id=1%3A2&mode=design" target="blank"> 
-                        <Button colorScheme="purple">Desktop Prototype</Button></a>   
+                        <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=0W0DY7POxK0BcdTb-1&scaling=scale-down&page-id=1%3A2&mode=design" target="blank"> 
+                        <Button colorScheme="purple">Desktop Prototype</Button></a><br/>   
                     </Center>
                     <Center>
-                    <Image src="/MobileVersion.png" alt="Desktop Version" borderRadius="10px"/>
+                    <Image src="/MobileVersion.png" alt="Desktop Version" borderRadius="10px" mt="30px"/>
                     </Center>
                     <Center>
-                        <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=122-166&t=PisUKdigIi8oZ5aX-1&scaling=scale-down&page-id=66%3A1696&mode=design" target="blank"> 
+                        <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=122-166&t=QD2g2qxY1krs0BjI-1&scaling=scale-down&page-id=66%3A1696&mode=design" target="blank"> 
                         <Button colorScheme="purple">Mobile Prototype</Button></a>   
                     </Center>
             <Heading as="h5" fontSize="24px" mt="50px">Client: Archive Recording Studio</Heading>
@@ -36,7 +36,7 @@ function Archive() {
                     <b>Timeframe: </b>1 week sprint from concept to prototype.
                 </Text>
             <Heading as="h5" fontSize="24px" mt="30px">User Stories</Heading>
-                <Heading as="h6" fontSize="18px" mt="30px">Jordan a.k.a. "Madditude" (He/Him)</Heading>
+                <Heading as="h6" fontSize="18px" mt="30px">Jordan</Heading>
                     <Text>Talented rapper with a TikTok following looking to record a professional demo to send to record labels.</Text>
                     <b>Needs & Goals:</b>
                         <UnorderedList>
@@ -44,7 +44,7 @@ function Archive() {
                         <ListItem ml="10px">Wants to have his song played on the radio. </ListItem>
                         <ListItem ml="10px">Wants to easily be able to book a recording session and access the demo.</ListItem>
                         </UnorderedList>
-                <Heading as="h6" fontSize="18px" mt="30px">Lilla (She/Her)</Heading>
+                <Heading as="h6" fontSize="18px" mt="30px">Lilla</Heading>
                     <Text>Local violinist with a long career of playing in The Fine Fiddlers quartet looking to preserve the quartet's recordings in a digital format.<br/></Text>
                         <b>Needs & Goals:</b>
                         <UnorderedList>
@@ -52,7 +52,7 @@ function Archive() {
                         <ListItem ml="10px">Wants to convert cassette tape recordings into remastered digital recordings.</ListItem>
                         <ListItem ml="10px">Wants to share the quartet's music on YouTube.</ListItem>
                         </UnorderedList>
-                    <Heading as="h6" fontSize="18px" mt="30px">Ashe (They/Them)</Heading>
+                    <Heading as="h6" fontSize="18px" mt="30px">Ashe</Heading>
                     <Text>Visionary multi-instrumentalist in the independent punk band Brooklyn Fierce looking to record their new album and release a limited edition in vinyl.<br/></Text>
                         <b>Needs & Goals:</b>
                         <UnorderedList>
