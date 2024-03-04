@@ -62,7 +62,7 @@ function About() {
                 <Grid templateColumns='repeat(5, 1fr)'>
                     <GridItem colSpan={5} p={2}>
                         <Center>
-                            <Image src="/BeatrizStrobel.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" mb="55px" />
+                            <Image src="/BeatrizStrobelNew.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" mb="55px" />
                         </Center>    
                         <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
