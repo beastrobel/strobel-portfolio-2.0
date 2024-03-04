@@ -12,11 +12,18 @@ function Archive() {
         <Container maxWidth="4xl" my="50px">
             <Heading as="h3" fontSize="36px">Archive</Heading>
                 <Text>This UX case study was created by me to showcase my process. </Text>
-                <Image src="/ArchiveThumbnail.png" alt="Archive UX" borderRadius="10px"/><br/>
-                <Center>
-                    <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> 
-                    <Button colorScheme="purple">View Figma Prototype</Button></a>   
-                </Center>
+                    <Image src="/DesktopVersion.png" alt="Desktop Version" borderRadius="10px"/>
+                    <Center>
+                        <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=AMZBV4p5IrNs2nny-1&scaling=scale-down&page-id=1%3A2&mode=design" target="blank"> 
+                        <Button colorScheme="purple">Desktop Prototype</Button></a>   
+                    </Center>
+                    <Center>
+                    <Image src="/MobileVersion.png" alt="Desktop Version" borderRadius="10px"/>
+                    </Center>
+                    <Center>
+                        <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=122-166&t=PisUKdigIi8oZ5aX-1&scaling=scale-down&page-id=66%3A1696&mode=design" target="blank"> 
+                        <Button colorScheme="purple">Mobile Prototype</Button></a>   
+                    </Center>
             <Heading as="h5" fontSize="24px" mt="50px">Client: Archive Recording Studio</Heading>
             <Heading as="h5" fontSize="24px" mt="30px">Project Brief</Heading>
                 <Text as="p">
@@ -60,10 +67,6 @@ function Archive() {
             <Heading as="h5" fontSize="24px" mt="30px">Wireframes</Heading>
                 <Image src="/LoFi.png" alt="Lo-Fi Wireframes"/><br/>
                 <Image src="/HiFi.png" alt="Hi-Fi Wireframes"/>
-                <Center>
-                    <a href="https://www.figma.com/proto/KN8s0LgWoXfkCI7pB1QHXI/Untitled?type=design&node-id=27-602&t=qc1U7b5z0FJn2BlQ-1&scaling=contain&page-id=1%3A2&mode=design" target="blank"> <br/>
-                    <Button colorScheme="purple">View Figma Prototype</Button></a>   
-                </Center>
             <Heading as="h5" fontSize="24px" mt="30px">Takeaways</Heading>
                 <Text>This UX case study became a passion project for me, as I spent countless hours learning about the inner-workings of a recording studio. It showcases my
                     storytelling ability as a UX Designer. I conceptualized a unique brand with user experience in mind. I incorporated my three personas throughout the design, and thought carefully 
