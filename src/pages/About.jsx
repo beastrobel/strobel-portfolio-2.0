@@ -28,20 +28,17 @@ function About() {
             <Container maxWidth="4xl" my="50px">
                 <Grid templateColumns='repeat(5, 1fr)'>
                     <GridItem colSpan={2} gap={3}>
-                        <Image src="/BeatrizStrobel.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" m="55px"  />
+                        <Image src="/BeatrizStrobelNew.jpg" alt="Beatriz Strobel" w="200px" borderRadius="200px" m="55px"  />
                     </GridItem>
                     <GridItem colSpan={3} gap={3}>
                         <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
-                            I am passionate about design and technology. Last year, I assumed the role of UX Lead Designer (Magazine Archive Lead) for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
-                            honing my craft, I look forward to intergrating technology into my design practice and growing my career in UI/UX.
+                            I am passionate about improving people's lives through design. Good graphic design has the power to inform and inspire. After a decade specializing in print graphic design and honing my craft, I look forward to intergrating technology into my design practice and growing my career.
                             <br/><br/>
-                            I am always looking to expand my skill set. This year, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
+                            I am always looking to expand my skill set. In 2024, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
                             CSS, Javascript, JQuery, Bootstrap, Node.js, MySQL, and MongoDB. I have been working on a variety of personal projects to continue to strengthen my programming skills.
                             <br/><br/>
                             When I'm not designing or programming, I can be found flipping through the vinyl crates at the corner record shop.
-
-
                         </Text>
                         <Text sx={linkStyles}>
                         <Link to="/ResumeBeatrizStrobel.pdf" isexternal="true" target="blank"> Resume </Link>
@@ -66,10 +63,9 @@ function About() {
                         </Center>    
                         <Heading as="h2" fontSize="48px" lineHeight="52px" mb="30px">About me</Heading>
                         <Text as="p" display="flex" flex-wrap="wrap">
-                            I am passionate about design and technology. Last year, I assumed the role of UX Lead Designer (Magazine Archive Lead) for FAITH Catholic Publisher's magazine archive website. After nearly a decade specializing in graphic design and 
-                            honing my craft, I look forward to intergrating technology into my design practice and growing my career in UI/UX.
+                            I am passionate about improving people's lives through design. Good graphic design has the power to inform and inspire. After a decade specializing in print graphic design and honing my craft, I look forward to intergrating technology into my design practice and growing my career.
                             <br/><br/>
-                            I am always looking to expand my skill set. This year, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
+                            I am always looking to expand my skill set. In 2024, I earned a certificate in Full Stack Web Development from Michigan State University. I gained technical programming skills in ReactJS, GraphQL, Express, HTML, 
                             CSS, Javascript, JQuery, Bootstrap, Node.js, MySQL, and MongoDB. I have been working on a variety of personal projects to continue to strengthen my programming skills.
                             <br/><br/>
                             When I'm not designing or programming, I can be found flipping through the vinyl crates at the corner record shop.

@@ -9,6 +9,7 @@ import Umbrella from './pages/Umbrella.jsx';
 import About from './pages/About.jsx';
 import Social from './pages/Social-Network.jsx';
 import Archive from './pages/Archive.jsx';
+import Addy from './pages/Addy.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: '/Programmers-Guide',
         element: <Guide />,
+      },
+      {
+        path: '/Addy',
+        element: <Addy />,
       },
       {
         path: '/Umbrella',
