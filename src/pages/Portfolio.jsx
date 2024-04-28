@@ -12,17 +12,17 @@ const linkStyles = {
 function Portfolio() {
     return(
         <Container maxWidth="4xl" mt="50px" mb="120px">
-            <Heading as="h2" mt="50px" fontSize="24px">AWARD-WINNING MAGAZINE LAYOUT</Heading><br/>
+            <Heading as="h2" mt="50px" fontSize="24px">AWARD-WINNING FEATURE</Heading><br/>
                     <Box>
-                        <Image src="/Ikenna_1.jpg" alt="Archive UX" borderRadius="10px"/><br/>
+                        <Image src="/feature1.jpg" alt="Feature mockup" borderRadius="10px"/><br/>
                         <Center>
-                            <Link to="/Addy"><Button colorScheme="purple">View Layout</Button>
+                            <Link to="/Addy"><Button colorScheme="purple">View Feature</Button>
                         </Link></Center>
                     </Box>
 
             <Heading as="h2" mt="50px" fontSize="24px">UX CASE STUDY</Heading><br/>
                     <Box>
-                        <Image src="/ArchiveThumbnail.jpg" alt="Archive UX" borderRadius="10px"/><br/>
+                        <Image src="/ArchiveThumbnail.jpg" alt="Archive UX mockup" borderRadius="10px"/><br/>
                         <Center>
                             <Link to="/Archive"><Button colorScheme="purple">View Case Study</Button>
                         </Link></Center>
